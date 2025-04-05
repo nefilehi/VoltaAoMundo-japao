@@ -10,37 +10,39 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <a class="navbar-brand" href="#">
-                <img src="" alt="" class="d-inline-block align-text-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="estilo/imagens/logojapao.jpg" alt="Logo" width="100" height="60" class="d-inline-block">
+                Japão
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mx-auto mt-5 mb-2">
                     <li class="nav-item active">
-                        <a class="nav-link mx-5 font-menu" href="index.html">Inicio</a>
+                        <a class="nav-link mx-5 font-menu" href="index.html">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5 font-menu" href="historia.html">História</a>
                     </li>
-                    <li class="nav-item mx-5 dropdown">
+                    <li class="nav-item dropdown mx-5">
                         <a class="nav-link dropdown-toggle font-menu" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Cultura
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Culinaria</a>
-                            <a class="dropdown-item" href="#">Cultura</a>
-                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="culinaria.html">Culinária</a></li>
+                            <li><a class="dropdown-item" href="cultura.html">Cultura</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5 font-menu" href="curiosidades.html">Curiosidades</a>
